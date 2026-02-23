@@ -1,0 +1,45 @@
+{
+  "name": "RGC Scorecard",
+  "short_name": "RGC",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b1016",
+  "theme_color": "#b00020",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "description": "Swipe-based golf scorecard for Rowlands Castle Golf Course (Black & Purple tees), with snakes, camels and dolphins.",
+  "shortcuts": [
+    {
+      "name": "Open Scorecard",
+      "short_name": "Scorecard",
+      "description": "Start scoring",
+      "url": "./index.html",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
